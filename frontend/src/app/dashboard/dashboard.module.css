@@ -1,0 +1,30 @@
+.leftPanel {
+    padding: 2.5rem;
+    width: 18.75rem;
+    height: 100vh;
+    background-color: var(--var-dark-background);
+}
+
+.dashboardContainer {
+    background-color: var(--var-body-background);
+    display: flex;
+    text-align: center;
+}
+
+.rightPanel {
+    text-align: left;
+    padding: 2.5rem;
+}
+
+#welcomeText {
+    color: var(--var-white);
+}
+
+#welcomeSubtext {
+    color: #A6A6A6;
+}
+
+.balanceInAndOut {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
