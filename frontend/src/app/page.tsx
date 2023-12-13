@@ -20,6 +20,34 @@ export default function Home() {
             <p className="xl:text-4xl mt-4">R$ 100.00</p>
           </div>
         </div>
+
+        <div className="container mx-auto mt-8 text-black">
+          <h2 className="text-2xl font-bold mb-4">Tabela de Exemplo</h2>
+          <table className="min-w-full bg-white border border-gray-300">
+            <thead>
+              <tr className="text-left">
+                <th className="border-b p-2">ID</th>
+                <th className="border-b p-2">Data</th>
+                <th className="border-b p-2">Nome</th>
+                <th className="border-b p-2">Idade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border-b p-2">001</td>
+                <td className="border-b p-2">12/12/2023</td>
+                <td className="border-b p-2">João</td>
+                <td className="border-b p-2">25</td>
+              </tr>
+              <tr>
+                <td className="border-b p-2">002</td>
+                <td className="border-b p-2">12/12/2023</td>
+                <td className="border-b p-2">Maria</td>
+                <td className="border-b p-2">30</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </main>
     </>
   );
